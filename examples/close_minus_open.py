@@ -10,6 +10,10 @@ after the market closes!
 
 To trade this strategy in the real world, we would need to look at yesterday's
 close price to make today's trading decision.
+
+You can see the difference in the two functions below. You'll notice the distinction
+is very subtle - the shift(1) on the Close_minus_Open signal makes all the difference.
+Plots are available in the `plots` folder.
 """
 
 import numpy as np
